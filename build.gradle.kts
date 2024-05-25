@@ -1,6 +1,6 @@
 plugins {
-    kotlin("jvm") version "1.7.10"
-    kotlin("plugin.serialization") version "1.7.10"
+    kotlin("jvm") version "1.9.24"
+    kotlin("plugin.serialization") version "1.9.24"
     id("application")
     id("java-library")
     id("maven-publish")
@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "me.obsilabor"
-version = "1.0.6"
+version = "1.0.7"
 
 application {
     mainClass.set("$group.pistonmetakt.classgen.ClassGeneratorKt")
