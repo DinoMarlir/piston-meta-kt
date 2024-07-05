@@ -6,514 +6,544 @@ import me.obsilabor.pistonmetakt.data.launchermeta.Version
 @Suppress("unused")
 object MinecraftVersions {
   /**
+   * This represents the minecraft version 1.21
+   */
+  val RELEASE_1_21: Version = Version(1, "1.21", "2024-06-13T08:24:03+00:00", "177e49d3233cb6eac42f0495c0a48e719870c2ae", "2024-06-13T08:32:38+00:00", "release", "https://piston-meta.mojang.com/v1/packages/177e49d3233cb6eac42f0495c0a48e719870c2ae/1.21.json")
+
+  /**
+   * This represents the minecraft version 1.21-rc1
+   */
+  val SNAPSHOT_1_21_RC1: Version = Version(1, "1.21-rc1", "2024-06-10T12:24:08+00:00", "47f1581b8feaa3fdf73f9b90e4afb7c2a1de1894", "2024-06-13T08:15:30+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/47f1581b8feaa3fdf73f9b90e4afb7c2a1de1894/1.21-rc1.json")
+
+  /**
+   * This represents the minecraft version 1.21-pre4
+   */
+  val SNAPSHOT_1_21_PRE4: Version = Version(1, "1.21-pre4", "2024-06-07T12:00:15+00:00", "3a0180b1ef4fcce9b6b0369830a2326eaf49b3ae", "2024-06-13T08:15:30+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/3a0180b1ef4fcce9b6b0369830a2326eaf49b3ae/1.21-pre4.json")
+
+  /**
+   * This represents the minecraft version 1.21-pre3
+   */
+  val SNAPSHOT_1_21_PRE3: Version = Version(1, "1.21-pre3", "2024-06-05T08:51:44+00:00", "c8403cbdca8f2f5676a053fcf0f3ce9a19021817", "2024-06-13T08:15:30+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/c8403cbdca8f2f5676a053fcf0f3ce9a19021817/1.21-pre3.json")
+
+  /**
+   * This represents the minecraft version 1.21-pre2
+   */
+  val SNAPSHOT_1_21_PRE2: Version = Version(1, "1.21-pre2", "2024-05-31T12:44:56+00:00", "22b8cb5b5a17b4366961d112c97dd6a539b4106f", "2024-06-13T08:15:30+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/22b8cb5b5a17b4366961d112c97dd6a539b4106f/1.21-pre2.json")
+
+  /**
+   * This represents the minecraft version 1.21-pre1
+   */
+  val SNAPSHOT_1_21_PRE1: Version = Version(1, "1.21-pre1", "2024-05-29T12:04:43+00:00", "233536b85a0efe8ea81a01414bafa306719ae472", "2024-06-13T08:15:30+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/233536b85a0efe8ea81a01414bafa306719ae472/1.21-pre1.json")
+
+  /**
    * This represents the minecraft version 24w21b
    */
-  val SNAPSHOT_24W21B: Version = Version(1, "24w21b", "2024-05-22T16:25:41+00:00", "d585c8e981e58326237746ca1253dea15c9e4aaa", "2024-05-22T16:34:05+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/d585c8e981e58326237746ca1253dea15c9e4aaa/24w21b.json")
+  val SNAPSHOT_24W21B: Version = Version(1, "24w21b", "2024-05-22T16:25:41+00:00", "1fe5d82f6e9fff1ec2859ad28be3e14511c1daa5", "2024-06-13T08:15:30+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/1fe5d82f6e9fff1ec2859ad28be3e14511c1daa5/24w21b.json")
 
   /**
    * This represents the minecraft version 24w21a
    */
-  val SNAPSHOT_24W21A: Version = Version(1, "24w21a", "2024-05-22T14:18:26+00:00", "a7346493faf4a8fd8bb4b9ea179ab60345d70b20", "2024-05-22T14:26:26+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/a7346493faf4a8fd8bb4b9ea179ab60345d70b20/24w21a.json")
+  val SNAPSHOT_24W21A: Version = Version(1, "24w21a", "2024-05-22T14:18:26+00:00", "ade0af870e7bd270c76eac8ed5e2312058dce0a0", "2024-06-13T08:15:30+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/ade0af870e7bd270c76eac8ed5e2312058dce0a0/24w21a.json")
 
   /**
    * This represents the minecraft version 24w20a
    */
-  val SNAPSHOT_24W20A: Version = Version(1, "24w20a", "2024-05-15T12:00:35+00:00", "f84fe1745344d33978cbf16857a0576402abc9ea", "2024-05-22T11:55:49+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/f84fe1745344d33978cbf16857a0576402abc9ea/24w20a.json")
+  val SNAPSHOT_24W20A: Version = Version(1, "24w20a", "2024-05-15T12:00:35+00:00", "c0ae763fc42997202615dba840ebd9414f1384ea", "2024-06-13T08:15:30+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/c0ae763fc42997202615dba840ebd9414f1384ea/24w20a.json")
 
   /**
    * This represents the minecraft version 24w19b
    */
-  val SNAPSHOT_24W19B: Version = Version(1, "24w19b", "2024-05-10T14:32:42+00:00", "e31c245048e6d135e2ebea1755cffebfba0b70c2", "2024-05-22T11:55:49+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/e31c245048e6d135e2ebea1755cffebfba0b70c2/24w19b.json")
+  val SNAPSHOT_24W19B: Version = Version(1, "24w19b", "2024-05-10T14:32:42+00:00", "290d0406c0ac6a407b03b270ea094bb4a998cdfc", "2024-06-13T08:15:30+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/290d0406c0ac6a407b03b270ea094bb4a998cdfc/24w19b.json")
 
   /**
    * This represents the minecraft version 24w19a
    */
-  val SNAPSHOT_24W19A: Version = Version(1, "24w19a", "2024-05-10T12:15:31+00:00", "0328405027d9526ea41ed764117bec49ddd1ed50", "2024-05-22T11:55:49+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/0328405027d9526ea41ed764117bec49ddd1ed50/24w19a.json")
+  val SNAPSHOT_24W19A: Version = Version(1, "24w19a", "2024-05-10T12:15:31+00:00", "d077c00ede8b447fd8c2357f3fe2c08a40fd6989", "2024-06-13T08:15:30+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/d077c00ede8b447fd8c2357f3fe2c08a40fd6989/24w19a.json")
 
   /**
    * This represents the minecraft version 24w18a
    */
-  val SNAPSHOT_24W18A: Version = Version(1, "24w18a", "2024-05-03T12:08:27+00:00", "7fe0c83d30004cdd837aa66cd5ff327ecf237e7a", "2024-05-22T11:55:49+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/7fe0c83d30004cdd837aa66cd5ff327ecf237e7a/24w18a.json")
+  val SNAPSHOT_24W18A: Version = Version(1, "24w18a", "2024-05-03T12:08:27+00:00", "880350c119dc679bcd05c13f3d34b4b780fef72a", "2024-06-13T08:15:30+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/880350c119dc679bcd05c13f3d34b4b780fef72a/24w18a.json")
 
   /**
    * This represents the minecraft version 1.20.6
    */
-  val RELEASE_1_20_6: Version = Version(1, "1.20.6", "2024-04-29T12:40:45+00:00", "111890b5a8c2fee9b77036f9f377b33df42c718a", "2024-05-22T06:22:10+00:00", "release", "https://piston-meta.mojang.com/v1/packages/111890b5a8c2fee9b77036f9f377b33df42c718a/1.20.6.json")
+  val RELEASE_1_20_6: Version = Version(1, "1.20.6", "2024-04-29T12:40:45+00:00", "c5552f3d3493b2a2a31db441abc337faf7d1e139", "2024-06-13T06:23:18+00:00", "release", "https://piston-meta.mojang.com/v1/packages/c5552f3d3493b2a2a31db441abc337faf7d1e139/1.20.6.json")
 
   /**
    * This represents the minecraft version 1.20.6-rc1
    */
-  val SNAPSHOT_1_20_6_RC1: Version = Version(1, "1.20.6-rc1", "2024-04-26T10:12:17+00:00", "0b322fb5dded24d22e401d095dbfe9cd97f80339", "2024-05-22T06:22:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/0b322fb5dded24d22e401d095dbfe9cd97f80339/1.20.6-rc1.json")
+  val SNAPSHOT_1_20_6_RC1: Version = Version(1, "1.20.6-rc1", "2024-04-26T10:12:17+00:00", "2d19bdb21767e021118d536a1db09378bc91a8ab", "2024-06-13T06:23:18+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/2d19bdb21767e021118d536a1db09378bc91a8ab/1.20.6-rc1.json")
 
   /**
    * This represents the minecraft version 1.20.5
    */
-  val RELEASE_1_20_5: Version = Version(1, "1.20.5", "2024-04-23T11:54:12+00:00", "8184ab98c044f3e0e959023334b8e68564f898fa", "2024-05-22T06:22:10+00:00", "release", "https://piston-meta.mojang.com/v1/packages/8184ab98c044f3e0e959023334b8e68564f898fa/1.20.5.json")
+  val RELEASE_1_20_5: Version = Version(1, "1.20.5", "2024-04-23T11:54:12+00:00", "19c8dbdb3f6c963fc207419e92f36bd5ba412037", "2024-06-13T06:23:18+00:00", "release", "https://piston-meta.mojang.com/v1/packages/19c8dbdb3f6c963fc207419e92f36bd5ba412037/1.20.5.json")
 
   /**
    * This represents the minecraft version 1.20.5-rc3
    */
-  val SNAPSHOT_1_20_5_RC3: Version = Version(1, "1.20.5-rc3", "2024-04-22T13:42:34+00:00", "384892ff9873fd36cc724df7592ba4868fb8d8c3", "2024-05-22T06:22:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/384892ff9873fd36cc724df7592ba4868fb8d8c3/1.20.5-rc3.json")
+  val SNAPSHOT_1_20_5_RC3: Version = Version(1, "1.20.5-rc3", "2024-04-22T13:42:34+00:00", "e1b832d796740126212133cc31bf06fe76cf4840", "2024-06-13T06:23:18+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/e1b832d796740126212133cc31bf06fe76cf4840/1.20.5-rc3.json")
 
   /**
    * This represents the minecraft version 1.20.5-rc2
    */
-  val SNAPSHOT_1_20_5_RC2: Version = Version(1, "1.20.5-rc2", "2024-04-19T13:13:15+00:00", "f9451fcbabc8665b031dce7cfeba9a7204821959", "2024-05-22T06:22:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/f9451fcbabc8665b031dce7cfeba9a7204821959/1.20.5-rc2.json")
+  val SNAPSHOT_1_20_5_RC2: Version = Version(1, "1.20.5-rc2", "2024-04-19T13:13:15+00:00", "99b45543f62d875381c0713b864e0bd004c7fc7a", "2024-06-13T06:23:18+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/99b45543f62d875381c0713b864e0bd004c7fc7a/1.20.5-rc2.json")
 
   /**
    * This represents the minecraft version 1.20.5-rc1
    */
-  val SNAPSHOT_1_20_5_RC1: Version = Version(1, "1.20.5-rc1", "2024-04-18T11:45:40+00:00", "6e959ae81fd657733e85b0942c868db0af2e41bd", "2024-05-22T06:22:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/6e959ae81fd657733e85b0942c868db0af2e41bd/1.20.5-rc1.json")
+  val SNAPSHOT_1_20_5_RC1: Version = Version(1, "1.20.5-rc1", "2024-04-18T11:45:40+00:00", "a1a3373d7a7368ce48c896db91180f22fcf3973e", "2024-06-13T06:23:18+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/a1a3373d7a7368ce48c896db91180f22fcf3973e/1.20.5-rc1.json")
 
   /**
    * This represents the minecraft version 1.20.5-pre4
    */
-  val SNAPSHOT_1_20_5_PRE4: Version = Version(1, "1.20.5-pre4", "2024-04-17T11:56:02+00:00", "e507f80f06058d550a8641f97e67b2dc8a2a8d4c", "2024-05-22T06:22:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/e507f80f06058d550a8641f97e67b2dc8a2a8d4c/1.20.5-pre4.json")
+  val SNAPSHOT_1_20_5_PRE4: Version = Version(1, "1.20.5-pre4", "2024-04-17T11:56:02+00:00", "87119a49f5c323891fc045b2443fab5767628870", "2024-06-13T06:23:18+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/87119a49f5c323891fc045b2443fab5767628870/1.20.5-pre4.json")
 
   /**
    * This represents the minecraft version 1.20.5-pre3
    */
-  val SNAPSHOT_1_20_5_PRE3: Version = Version(1, "1.20.5-pre3", "2024-04-16T11:57:30+00:00", "329217473d516f395a595f3dccf2485b8b99ee32", "2024-05-22T06:22:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/329217473d516f395a595f3dccf2485b8b99ee32/1.20.5-pre3.json")
+  val SNAPSHOT_1_20_5_PRE3: Version = Version(1, "1.20.5-pre3", "2024-04-16T11:57:30+00:00", "b0bf8963cb0d145c710d45e67c97fc1081c14163", "2024-06-13T06:23:18+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/b0bf8963cb0d145c710d45e67c97fc1081c14163/1.20.5-pre3.json")
 
   /**
    * This represents the minecraft version 1.20.5-pre2
    */
-  val SNAPSHOT_1_20_5_PRE2: Version = Version(1, "1.20.5-pre2", "2024-04-15T12:36:05+00:00", "a945c4c2a4b13b1cc3b9fc4b16d3e142b6da69fe", "2024-05-22T06:22:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/a945c4c2a4b13b1cc3b9fc4b16d3e142b6da69fe/1.20.5-pre2.json")
+  val SNAPSHOT_1_20_5_PRE2: Version = Version(1, "1.20.5-pre2", "2024-04-15T12:36:05+00:00", "0cdaaf4580a9fe946fb466ff55d20635399f1d3f", "2024-06-13T06:23:18+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/0cdaaf4580a9fe946fb466ff55d20635399f1d3f/1.20.5-pre2.json")
 
   /**
    * This represents the minecraft version 1.20.5-pre1
    */
-  val SNAPSHOT_1_20_5_PRE1: Version = Version(1, "1.20.5-pre1", "2024-04-10T12:44:25+00:00", "0a5ca75889e81bec4f301de6e8e2ef4e6109595d", "2024-05-22T06:22:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/0a5ca75889e81bec4f301de6e8e2ef4e6109595d/1.20.5-pre1.json")
+  val SNAPSHOT_1_20_5_PRE1: Version = Version(1, "1.20.5-pre1", "2024-04-10T12:44:25+00:00", "d710f5cd0ab7391d30dffc441406caa4772caed2", "2024-06-13T06:23:18+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/d710f5cd0ab7391d30dffc441406caa4772caed2/1.20.5-pre1.json")
 
   /**
    * This represents the minecraft version 24w14a
    */
-  val SNAPSHOT_24W14A: Version = Version(1, "24w14a", "2024-04-03T11:49:39+00:00", "fcd2be7658c5698a3afb48df0e1a17a096df1114", "2024-05-22T06:22:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/fcd2be7658c5698a3afb48df0e1a17a096df1114/24w14a.json")
+  val SNAPSHOT_24W14A: Version = Version(1, "24w14a", "2024-04-03T11:49:39+00:00", "70ff24560e91d94b39fd52e679a1ee77afcfdea1", "2024-06-13T06:23:18+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/70ff24560e91d94b39fd52e679a1ee77afcfdea1/24w14a.json")
 
   /**
    * This represents the minecraft version 24w14potato
    */
-  val SNAPSHOT_24W14POTATO: Version = Version(1, "24w14potato", "2024-04-01T11:07:19+00:00", "84117a6a8dc38e6eb09ce054ad22a1400535ecce", "2024-05-22T06:21:38+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/84117a6a8dc38e6eb09ce054ad22a1400535ecce/24w14potato.json")
+  val SNAPSHOT_24W14POTATO: Version = Version(1, "24w14potato", "2024-04-01T11:07:19+00:00", "13f7fac3a35b1d739d1284abd35906f9039d017c", "2024-06-13T06:22:48+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/13f7fac3a35b1d739d1284abd35906f9039d017c/24w14potato.json")
 
   /**
    * This represents the minecraft version 24w13a
    */
-  val SNAPSHOT_24W13A: Version = Version(1, "24w13a", "2024-03-27T14:30:20+00:00", "3c7d7465de719e00176bb116d7fec0cde9b7e0cf", "2024-05-22T06:22:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/3c7d7465de719e00176bb116d7fec0cde9b7e0cf/24w13a.json")
+  val SNAPSHOT_24W13A: Version = Version(1, "24w13a", "2024-03-27T14:30:20+00:00", "01960ea297cc091d41fdc3f6ce9dbde3516f9419", "2024-06-13T06:23:18+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/01960ea297cc091d41fdc3f6ce9dbde3516f9419/24w13a.json")
 
   /**
    * This represents the minecraft version 24w12a
    */
-  val SNAPSHOT_24W12A: Version = Version(1, "24w12a", "2024-03-20T14:38:37+00:00", "423d5eda90cf53dd578da10f75a359480acea62e", "2024-05-22T06:21:38+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/423d5eda90cf53dd578da10f75a359480acea62e/24w12a.json")
+  val SNAPSHOT_24W12A: Version = Version(1, "24w12a", "2024-03-20T14:38:37+00:00", "30ee5d572b3d2289b0500a9886d8f0c6dfc4abc1", "2024-06-13T06:22:48+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/30ee5d572b3d2289b0500a9886d8f0c6dfc4abc1/24w12a.json")
 
   /**
    * This represents the minecraft version 24w11a
    */
-  val SNAPSHOT_24W11A: Version = Version(1, "24w11a", "2024-03-14T14:21:33+00:00", "41e8e0e812736244d6087d17866e740b2e52c4ae", "2024-05-22T06:21:38+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/41e8e0e812736244d6087d17866e740b2e52c4ae/24w11a.json")
+  val SNAPSHOT_24W11A: Version = Version(1, "24w11a", "2024-03-14T14:21:33+00:00", "7e7e6b53c38554ca880b6ed6dbe3493668309946", "2024-06-13T06:22:48+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/7e7e6b53c38554ca880b6ed6dbe3493668309946/24w11a.json")
 
   /**
    * This represents the minecraft version 24w10a
    */
-  val SNAPSHOT_24W10A: Version = Version(1, "24w10a", "2024-03-06T10:37:35+00:00", "8e2febb2f86141e468e12e449824719858b471a7", "2024-05-22T06:21:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/8e2febb2f86141e468e12e449824719858b471a7/24w10a.json")
+  val SNAPSHOT_24W10A: Version = Version(1, "24w10a", "2024-03-06T10:37:35+00:00", "5ccd310102bdb65da07bf06adad5e8e93d84fd79", "2024-06-13T06:22:17+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/5ccd310102bdb65da07bf06adad5e8e93d84fd79/24w10a.json")
 
   /**
    * This represents the minecraft version 24w09a
    */
-  val SNAPSHOT_24W09A: Version = Version(1, "24w09a", "2024-02-28T12:38:12+00:00", "05730d945caea92e50ad6a530d6bd8cbfc1ce712", "2024-05-22T06:21:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/05730d945caea92e50ad6a530d6bd8cbfc1ce712/24w09a.json")
+  val SNAPSHOT_24W09A: Version = Version(1, "24w09a", "2024-02-28T12:38:12+00:00", "10b6e5a00c303ebb6820cdadf983c83786bdc4de", "2024-06-13T06:22:17+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/10b6e5a00c303ebb6820cdadf983c83786bdc4de/24w09a.json")
 
   /**
    * This represents the minecraft version 24w07a
    */
-  val SNAPSHOT_24W07A: Version = Version(1, "24w07a", "2024-02-14T12:51:01+00:00", "db385f670faed64b2ec4ed58406c2dfbeaf70365", "2024-05-22T06:20:35+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/db385f670faed64b2ec4ed58406c2dfbeaf70365/24w07a.json")
+  val SNAPSHOT_24W07A: Version = Version(1, "24w07a", "2024-02-14T12:51:01+00:00", "248b43fe42dc7ffd1591f2e1c057529efe79ec63", "2024-06-13T06:21:47+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/248b43fe42dc7ffd1591f2e1c057529efe79ec63/24w07a.json")
 
   /**
    * This represents the minecraft version 24w06a
    */
-  val SNAPSHOT_24W06A: Version = Version(1, "24w06a", "2024-02-07T14:47:18+00:00", "265c2d3604f4249e19d14fe691316c7e3e63aa5b", "2024-05-22T06:20:35+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/265c2d3604f4249e19d14fe691316c7e3e63aa5b/24w06a.json")
+  val SNAPSHOT_24W06A: Version = Version(1, "24w06a", "2024-02-07T14:47:18+00:00", "9e306396105df2526e8572998238c64a3c3e7c01", "2024-06-13T06:21:47+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/9e306396105df2526e8572998238c64a3c3e7c01/24w06a.json")
 
   /**
    * This represents the minecraft version 24w05b
    */
-  val SNAPSHOT_24W05B: Version = Version(1, "24w05b", "2024-02-01T12:55:14+00:00", "c4e7f843b1a7ec2040af0bc84d5ef17442dde48b", "2024-05-22T06:20:02+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/c4e7f843b1a7ec2040af0bc84d5ef17442dde48b/24w05b.json")
+  val SNAPSHOT_24W05B: Version = Version(1, "24w05b", "2024-02-01T12:55:14+00:00", "f3c7d91a64ce606746a77478c5b98e3b98dae293", "2024-06-13T06:21:17+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/f3c7d91a64ce606746a77478c5b98e3b98dae293/24w05b.json")
 
   /**
    * This represents the minecraft version 24w05a
    */
-  val SNAPSHOT_24W05A: Version = Version(1, "24w05a", "2024-01-31T13:05:26+00:00", "72916085f400de6bcf3d43c314664b861bfc85c7", "2024-05-22T06:20:02+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/72916085f400de6bcf3d43c314664b861bfc85c7/24w05a.json")
+  val SNAPSHOT_24W05A: Version = Version(1, "24w05a", "2024-01-31T13:05:26+00:00", "3b1b4c9fd16a67db07649b79082a5935ae6883a8", "2024-06-13T06:21:17+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/3b1b4c9fd16a67db07649b79082a5935ae6883a8/24w05a.json")
 
   /**
    * This represents the minecraft version 24w04a
    */
-  val SNAPSHOT_24W04A: Version = Version(1, "24w04a", "2024-01-24T13:42:45+00:00", "147d46af5a98e79279e2398b69c016208fc40df3", "2024-05-22T06:20:02+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/147d46af5a98e79279e2398b69c016208fc40df3/24w04a.json")
+  val SNAPSHOT_24W04A: Version = Version(1, "24w04a", "2024-01-24T13:42:45+00:00", "93cb319bf16b1cd08721b7cb646ccdd4b34c3456", "2024-06-13T06:21:17+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/93cb319bf16b1cd08721b7cb646ccdd4b34c3456/24w04a.json")
 
   /**
    * This represents the minecraft version 24w03b
    */
-  val SNAPSHOT_24W03B: Version = Version(1, "24w03b", "2024-01-18T12:42:37+00:00", "40048a354be33c59cf37f214a5183c1beac62d95", "2024-05-22T06:20:02+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/40048a354be33c59cf37f214a5183c1beac62d95/24w03b.json")
+  val SNAPSHOT_24W03B: Version = Version(1, "24w03b", "2024-01-18T12:42:37+00:00", "33d5afa4f2d4e3855cfa68a09d82645d22cb36c7", "2024-06-13T06:21:17+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/33d5afa4f2d4e3855cfa68a09d82645d22cb36c7/24w03b.json")
 
   /**
    * This represents the minecraft version 24w03a
    */
-  val SNAPSHOT_24W03A: Version = Version(1, "24w03a", "2024-01-17T13:19:20+00:00", "471410ff00eb717ccba16d5e3af1263f2a341f7f", "2024-05-22T06:20:02+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/471410ff00eb717ccba16d5e3af1263f2a341f7f/24w03a.json")
+  val SNAPSHOT_24W03A: Version = Version(1, "24w03a", "2024-01-17T13:19:20+00:00", "573f1eab81508fad5533afac72844d7af5cb1eac", "2024-06-13T06:21:17+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/573f1eab81508fad5533afac72844d7af5cb1eac/24w03a.json")
 
   /**
    * This represents the minecraft version 23w51b
    */
-  val SNAPSHOT_23W51B: Version = Version(1, "23w51b", "2023-12-18T15:39:14+00:00", "dfd28c425685a1201169c4ee442bbeee1f658737", "2024-05-22T06:20:02+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/dfd28c425685a1201169c4ee442bbeee1f658737/23w51b.json")
+  val SNAPSHOT_23W51B: Version = Version(1, "23w51b", "2023-12-18T15:39:14+00:00", "874229e924753d3093f9d6a91da810df9e002baa", "2024-06-13T06:21:17+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/874229e924753d3093f9d6a91da810df9e002baa/23w51b.json")
 
   /**
    * This represents the minecraft version 23w51a
    */
-  val SNAPSHOT_23W51A: Version = Version(1, "23w51a", "2023-12-18T13:36:46+00:00", "8b5df969ee5d2e2a34a662110a872533a98e4b87", "2024-05-22T06:20:02+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/8b5df969ee5d2e2a34a662110a872533a98e4b87/23w51a.json")
+  val SNAPSHOT_23W51A: Version = Version(1, "23w51a", "2023-12-18T13:36:46+00:00", "c0f2d01f1ec8cf8395ad99794d18a4fda0787e7f", "2024-06-13T06:21:17+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/c0f2d01f1ec8cf8395ad99794d18a4fda0787e7f/23w51a.json")
 
   /**
    * This represents the minecraft version 1.20.4
    */
-  val RELEASE_1_20_4: Version = Version(1, "1.20.4", "2023-12-07T12:56:20+00:00", "d6ebb22e7eeefd88f1cef6b32bcffcccf4326404", "2024-05-22T06:20:02+00:00", "release", "https://piston-meta.mojang.com/v1/packages/d6ebb22e7eeefd88f1cef6b32bcffcccf4326404/1.20.4.json")
+  val RELEASE_1_20_4: Version = Version(1, "1.20.4", "2023-12-07T12:56:20+00:00", "91051d2d92c4c1329856da14d1371705af0e7f0f", "2024-06-13T06:21:17+00:00", "release", "https://piston-meta.mojang.com/v1/packages/91051d2d92c4c1329856da14d1371705af0e7f0f/1.20.4.json")
 
   /**
    * This represents the minecraft version 1.20.4-rc1
    */
-  val SNAPSHOT_1_20_4_RC1: Version = Version(1, "1.20.4-rc1", "2023-12-06T14:38:01+00:00", "3f502577d18f0da725d27e61e90ddb94787b8c0b", "2024-05-22T06:20:02+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/3f502577d18f0da725d27e61e90ddb94787b8c0b/1.20.4-rc1.json")
+  val SNAPSHOT_1_20_4_RC1: Version = Version(1, "1.20.4-rc1", "2023-12-06T14:38:01+00:00", "d8dd0cacb2d5ffa16c185b22549502174404b6c2", "2024-06-13T06:21:17+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/d8dd0cacb2d5ffa16c185b22549502174404b6c2/1.20.4-rc1.json")
 
   /**
    * This represents the minecraft version 1.20.3
    */
-  val RELEASE_1_20_3: Version = Version(1, "1.20.3", "2023-12-04T12:10:32+00:00", "c3474992464799e68d0832b98b6f4f04c55b6af7", "2024-05-22T06:20:02+00:00", "release", "https://piston-meta.mojang.com/v1/packages/c3474992464799e68d0832b98b6f4f04c55b6af7/1.20.3.json")
+  val RELEASE_1_20_3: Version = Version(1, "1.20.3", "2023-12-04T12:10:32+00:00", "e0416637a03d8b8c140335ec179bb48aedc6a897", "2024-06-13T06:21:17+00:00", "release", "https://piston-meta.mojang.com/v1/packages/e0416637a03d8b8c140335ec179bb48aedc6a897/1.20.3.json")
 
   /**
    * This represents the minecraft version 1.20.3-rc1
    */
-  val SNAPSHOT_1_20_3_RC1: Version = Version(1, "1.20.3-rc1", "2023-11-30T13:41:45+00:00", "dcdf7615f83cbb7aaf71e0ea02c6a959b3d62d69", "2024-05-22T06:20:02+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/dcdf7615f83cbb7aaf71e0ea02c6a959b3d62d69/1.20.3-rc1.json")
+  val SNAPSHOT_1_20_3_RC1: Version = Version(1, "1.20.3-rc1", "2023-11-30T13:41:45+00:00", "43c656ad2df97d3ae1787b13cdad35cbe47835bc", "2024-06-13T06:21:17+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/43c656ad2df97d3ae1787b13cdad35cbe47835bc/1.20.3-rc1.json")
 
   /**
    * This represents the minecraft version 1.20.3-pre4
    */
-  val SNAPSHOT_1_20_3_PRE4: Version = Version(1, "1.20.3-pre4", "2023-11-28T13:47:32+00:00", "a68a315e410122b8e4fa6c8c898818f8f7163874", "2024-05-22T06:20:02+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/a68a315e410122b8e4fa6c8c898818f8f7163874/1.20.3-pre4.json")
+  val SNAPSHOT_1_20_3_PRE4: Version = Version(1, "1.20.3-pre4", "2023-11-28T13:47:32+00:00", "ebcb445e2852d13ef192bd4d2c80e3262b903145", "2024-06-13T06:21:17+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/ebcb445e2852d13ef192bd4d2c80e3262b903145/1.20.3-pre4.json")
 
   /**
    * This represents the minecraft version 1.20.3-pre3
    */
-  val SNAPSHOT_1_20_3_PRE3: Version = Version(1, "1.20.3-pre3", "2023-11-27T14:24:36+00:00", "1c8c6ed67dd352769b2e70917c564961084b7ca1", "2024-05-22T06:20:02+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/1c8c6ed67dd352769b2e70917c564961084b7ca1/1.20.3-pre3.json")
+  val SNAPSHOT_1_20_3_PRE3: Version = Version(1, "1.20.3-pre3", "2023-11-27T14:24:36+00:00", "1ea59c9997cd1330b70e768e48eda34d92b5771e", "2024-06-13T06:21:17+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/1ea59c9997cd1330b70e768e48eda34d92b5771e/1.20.3-pre3.json")
 
   /**
    * This represents the minecraft version 1.20.3-pre2
    */
-  val SNAPSHOT_1_20_3_PRE2: Version = Version(1, "1.20.3-pre2", "2023-11-22T12:21:26+00:00", "2a7487425bcbff4c3c981f3d38d1bd9934c1ec2e", "2024-05-22T06:20:02+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/2a7487425bcbff4c3c981f3d38d1bd9934c1ec2e/1.20.3-pre2.json")
+  val SNAPSHOT_1_20_3_PRE2: Version = Version(1, "1.20.3-pre2", "2023-11-22T12:21:26+00:00", "119327a0d6e17aa99850fb9757641767ac485756", "2024-06-13T06:21:17+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/119327a0d6e17aa99850fb9757641767ac485756/1.20.3-pre2.json")
 
   /**
    * This represents the minecraft version 1.20.3-pre1
    */
-  val SNAPSHOT_1_20_3_PRE1: Version = Version(1, "1.20.3-pre1", "2023-11-20T15:40:14+00:00", "95391efdbf56a0e8f347c5d7341e28e7e39159b7", "2024-05-22T06:20:02+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/95391efdbf56a0e8f347c5d7341e28e7e39159b7/1.20.3-pre1.json")
+  val SNAPSHOT_1_20_3_PRE1: Version = Version(1, "1.20.3-pre1", "2023-11-20T15:40:14+00:00", "ea7c0d9f67b3323635801f0ba9442ab452bad082", "2024-06-13T06:21:17+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/ea7c0d9f67b3323635801f0ba9442ab452bad082/1.20.3-pre1.json")
 
   /**
    * This represents the minecraft version 23w46a
    */
-  val SNAPSHOT_23W46A: Version = Version(1, "23w46a", "2023-11-16T14:11:33+00:00", "b1a67fe9b2f8775bdd793842475aed5c85bc4262", "2024-05-22T06:19:31+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/b1a67fe9b2f8775bdd793842475aed5c85bc4262/23w46a.json")
+  val SNAPSHOT_23W46A: Version = Version(1, "23w46a", "2023-11-16T14:11:33+00:00", "873272d70bbf10b2d4ca0695306fa0caf21e4671", "2024-06-13T06:20:47+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/873272d70bbf10b2d4ca0695306fa0caf21e4671/23w46a.json")
 
   /**
    * This represents the minecraft version 23w45a
    */
-  val SNAPSHOT_23W45A: Version = Version(1, "23w45a", "2023-11-08T13:59:58+00:00", "5fbb884214e7c1b8cf13fec55bd6e58e56874e1f", "2024-05-22T06:19:31+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/5fbb884214e7c1b8cf13fec55bd6e58e56874e1f/23w45a.json")
+  val SNAPSHOT_23W45A: Version = Version(1, "23w45a", "2023-11-08T13:59:58+00:00", "c0baa4eef21d07092551f6ce2459895580e1109f", "2024-06-13T06:20:47+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/c0baa4eef21d07092551f6ce2459895580e1109f/23w45a.json")
 
   /**
    * This represents the minecraft version 23w44a
    */
-  val SNAPSHOT_23W44A: Version = Version(1, "23w44a", "2023-11-01T12:30:52+00:00", "dd09987266c6cc82637261513bc91b751c5e197e", "2024-05-22T06:18:59+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/dd09987266c6cc82637261513bc91b751c5e197e/23w44a.json")
+  val SNAPSHOT_23W44A: Version = Version(1, "23w44a", "2023-11-01T12:30:52+00:00", "25a64e8a3ce27ff47d197701f108787125f4c091", "2024-06-13T06:20:18+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/25a64e8a3ce27ff47d197701f108787125f4c091/23w44a.json")
 
   /**
    * This represents the minecraft version 23w43b
    */
-  val SNAPSHOT_23W43B: Version = Version(1, "23w43b", "2023-10-26T13:46:16+00:00", "1377e0eafb22ee4bd9b017170c10a5051f11e649", "2024-05-22T06:18:59+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/1377e0eafb22ee4bd9b017170c10a5051f11e649/23w43b.json")
+  val SNAPSHOT_23W43B: Version = Version(1, "23w43b", "2023-10-26T13:46:16+00:00", "044622f9875614605bfed950eaae8fb96bc5f4da", "2024-06-13T06:20:18+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/044622f9875614605bfed950eaae8fb96bc5f4da/23w43b.json")
 
   /**
    * This represents the minecraft version 23w43a
    */
-  val SNAPSHOT_23W43A: Version = Version(1, "23w43a", "2023-10-25T13:34:37+00:00", "7eca659647cfd293ac34304a8783ed0696eb2b7f", "2024-05-22T06:18:59+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/7eca659647cfd293ac34304a8783ed0696eb2b7f/23w43a.json")
+  val SNAPSHOT_23W43A: Version = Version(1, "23w43a", "2023-10-25T13:34:37+00:00", "9a2945fa4f196e6d75ae3c2007b17062802d95aa", "2024-06-13T06:20:18+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/9a2945fa4f196e6d75ae3c2007b17062802d95aa/23w43a.json")
 
   /**
    * This represents the minecraft version 23w42a
    */
-  val SNAPSHOT_23W42A: Version = Version(1, "23w42a", "2023-10-18T11:37:28+00:00", "2299e4aed3d0ec6b6157bee36a3d728a3b1575a1", "2024-05-22T06:26:05+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/2299e4aed3d0ec6b6157bee36a3d728a3b1575a1/23w42a.json")
+  val SNAPSHOT_23W42A: Version = Version(1, "23w42a", "2023-10-18T11:37:28+00:00", "5cfeb5f2645eab70f9753e939bf229e2eeae70f7", "2024-06-13T06:27:03+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/5cfeb5f2645eab70f9753e939bf229e2eeae70f7/23w42a.json")
 
   /**
    * This represents the minecraft version 23w41a
    */
-  val SNAPSHOT_23W41A: Version = Version(1, "23w41a", "2023-10-11T12:32:46+00:00", "7fcd0d52f085e461c079e9bd4fe9c9358d71a727", "2024-05-22T06:25:35+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/7fcd0d52f085e461c079e9bd4fe9c9358d71a727/23w41a.json")
+  val SNAPSHOT_23W41A: Version = Version(1, "23w41a", "2023-10-11T12:32:46+00:00", "34a678345f0bda05fea1b96a7dcab625f9721ede", "2024-06-13T06:26:35+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/34a678345f0bda05fea1b96a7dcab625f9721ede/23w41a.json")
 
   /**
    * This represents the minecraft version 23w40a
    */
-  val SNAPSHOT_23W40A: Version = Version(1, "23w40a", "2023-10-04T12:48:53+00:00", "2224a0e303dfdf5e7d56994cdfc9bc0b73369e73", "2024-05-22T06:25:35+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/2224a0e303dfdf5e7d56994cdfc9bc0b73369e73/23w40a.json")
+  val SNAPSHOT_23W40A: Version = Version(1, "23w40a", "2023-10-04T12:48:53+00:00", "78d16274761667cb07a78aeb98e55feca18eeb5d", "2024-06-13T06:26:35+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/78d16274761667cb07a78aeb98e55feca18eeb5d/23w40a.json")
 
   /**
    * This represents the minecraft version 1.20.2
    */
-  val RELEASE_1_20_2: Version = Version(1, "1.20.2", "2023-09-20T09:02:57+00:00", "eb98f587c0b141b3cd680ccc22e4f2368e04c291", "2024-05-22T06:25:35+00:00", "release", "https://piston-meta.mojang.com/v1/packages/eb98f587c0b141b3cd680ccc22e4f2368e04c291/1.20.2.json")
+  val RELEASE_1_20_2: Version = Version(1, "1.20.2", "2023-09-20T09:02:57+00:00", "6cd73e002a54683dcc2a1162205d47e6e6cacd44", "2024-06-13T06:26:35+00:00", "release", "https://piston-meta.mojang.com/v1/packages/6cd73e002a54683dcc2a1162205d47e6e6cacd44/1.20.2.json")
 
   /**
    * This represents the minecraft version 1.20.2-rc2
    */
-  val SNAPSHOT_1_20_2_RC2: Version = Version(1, "1.20.2-rc2", "2023-09-18T12:34:57+00:00", "7ee4e0ea7e5f5a3c1602fd7e70f59dc793c86fa0", "2024-05-22T06:25:35+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/7ee4e0ea7e5f5a3c1602fd7e70f59dc793c86fa0/1.20.2-rc2.json")
+  val SNAPSHOT_1_20_2_RC2: Version = Version(1, "1.20.2-rc2", "2023-09-18T12:34:57+00:00", "6325040bda7808c6892ccbcdba907516c6b8caf0", "2024-06-13T06:26:35+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/6325040bda7808c6892ccbcdba907516c6b8caf0/1.20.2-rc2.json")
 
   /**
    * This represents the minecraft version 1.20.2-rc1
    */
-  val SNAPSHOT_1_20_2_RC1: Version = Version(1, "1.20.2-rc1", "2023-09-15T13:10:30+00:00", "bfc5aa5b29c301dd969f200e5821db09bd50ca4e", "2024-05-22T06:25:35+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/bfc5aa5b29c301dd969f200e5821db09bd50ca4e/1.20.2-rc1.json")
+  val SNAPSHOT_1_20_2_RC1: Version = Version(1, "1.20.2-rc1", "2023-09-15T13:10:30+00:00", "07353c5381bd7236765a074d1d8bf6e1be4c479b", "2024-06-13T06:26:35+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/07353c5381bd7236765a074d1d8bf6e1be4c479b/1.20.2-rc1.json")
 
   /**
    * This represents the minecraft version 1.20.2-pre4
    */
-  val SNAPSHOT_1_20_2_PRE4: Version = Version(1, "1.20.2-pre4", "2023-09-13T15:06:51+00:00", "10a8dd7738c84bda2a781eb364c1c0bd6b8cc822", "2024-05-22T06:25:35+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/10a8dd7738c84bda2a781eb364c1c0bd6b8cc822/1.20.2-pre4.json")
+  val SNAPSHOT_1_20_2_PRE4: Version = Version(1, "1.20.2-pre4", "2023-09-13T15:06:51+00:00", "8cb7699ab5bf8aaa77732843809be6142fff4fa5", "2024-06-13T06:26:35+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/8cb7699ab5bf8aaa77732843809be6142fff4fa5/1.20.2-pre4.json")
 
   /**
    * This represents the minecraft version 1.20.2-pre3
    */
-  val SNAPSHOT_1_20_2_PRE3: Version = Version(1, "1.20.2-pre3", "2023-09-12T12:15:08+00:00", "47d98f392371ba45ddc9d2b9d64bb4d3c1a7deff", "2024-05-22T06:25:35+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/47d98f392371ba45ddc9d2b9d64bb4d3c1a7deff/1.20.2-pre3.json")
+  val SNAPSHOT_1_20_2_PRE3: Version = Version(1, "1.20.2-pre3", "2023-09-12T12:15:08+00:00", "17b05be2b23f07c1a763e78c790f0453d8233922", "2024-06-13T06:26:35+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/17b05be2b23f07c1a763e78c790f0453d8233922/1.20.2-pre3.json")
 
   /**
    * This represents the minecraft version 1.20.2-pre2
    */
-  val SNAPSHOT_1_20_2_PRE2: Version = Version(1, "1.20.2-pre2", "2023-09-07T12:42:32+00:00", "a7a717e27282014e3eb2cea9a5b73b645a1578b9", "2024-05-22T06:25:35+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/a7a717e27282014e3eb2cea9a5b73b645a1578b9/1.20.2-pre2.json")
+  val SNAPSHOT_1_20_2_PRE2: Version = Version(1, "1.20.2-pre2", "2023-09-07T12:42:32+00:00", "b2c72ba946f6f996a42661d39ddb0c51893cb5a9", "2024-06-13T06:26:35+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/b2c72ba946f6f996a42661d39ddb0c51893cb5a9/1.20.2-pre2.json")
 
   /**
    * This represents the minecraft version 1.20.2-pre1
    */
-  val SNAPSHOT_1_20_2_PRE1: Version = Version(1, "1.20.2-pre1", "2023-09-05T12:06:20+00:00", "f001a15451d599d9e04c869423841c4d46dc3004", "2024-05-22T06:25:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/f001a15451d599d9e04c869423841c4d46dc3004/1.20.2-pre1.json")
+  val SNAPSHOT_1_20_2_PRE1: Version = Version(1, "1.20.2-pre1", "2023-09-05T12:06:20+00:00", "4433f0788989fb29fc04009592d9c87eb8676d90", "2024-06-13T06:26:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/4433f0788989fb29fc04009592d9c87eb8676d90/1.20.2-pre1.json")
 
   /**
    * This represents the minecraft version 23w35a
    */
-  val SNAPSHOT_23W35A: Version = Version(1, "23w35a", "2023-08-30T11:24:35+00:00", "c90ed5670e73f337627be21f18d63de7f14aeb5d", "2024-05-22T06:25:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/c90ed5670e73f337627be21f18d63de7f14aeb5d/23w35a.json")
+  val SNAPSHOT_23W35A: Version = Version(1, "23w35a", "2023-08-30T11:24:35+00:00", "a9a3eff36c2fcd496843956955f4d36bfacbd89b", "2024-06-13T06:26:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/a9a3eff36c2fcd496843956955f4d36bfacbd89b/23w35a.json")
 
   /**
    * This represents the minecraft version 23w33a
    */
-  val SNAPSHOT_23W33A: Version = Version(1, "23w33a", "2023-08-17T11:39:08+00:00", "11773f03a0e8b2eff4fde84a3bdaa06307449932", "2024-05-22T06:25:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/11773f03a0e8b2eff4fde84a3bdaa06307449932/23w33a.json")
+  val SNAPSHOT_23W33A: Version = Version(1, "23w33a", "2023-08-17T11:39:08+00:00", "332ee92c282f81acf2f1054d6ba2106695e811b6", "2024-06-13T06:26:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/332ee92c282f81acf2f1054d6ba2106695e811b6/23w33a.json")
 
   /**
    * This represents the minecraft version 23w32a
    */
-  val SNAPSHOT_23W32A: Version = Version(1, "23w32a", "2023-08-09T12:14:25+00:00", "b0c651408aa71ec02466fdf33208cf5198c1284c", "2024-05-22T06:25:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/b0c651408aa71ec02466fdf33208cf5198c1284c/23w32a.json")
+  val SNAPSHOT_23W32A: Version = Version(1, "23w32a", "2023-08-09T12:14:25+00:00", "7e66c917fa10c8dd6773e23fa33f38eec12a85bf", "2024-06-13T06:26:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/7e66c917fa10c8dd6773e23fa33f38eec12a85bf/23w32a.json")
 
   /**
    * This represents the minecraft version 23w31a
    */
-  val SNAPSHOT_23W31A: Version = Version(1, "23w31a", "2023-08-01T10:03:13+00:00", "bba2d108127ffb5beeb139fbb4a1594843e6e78d", "2024-05-22T06:24:36+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/bba2d108127ffb5beeb139fbb4a1594843e6e78d/23w31a.json")
+  val SNAPSHOT_23W31A: Version = Version(1, "23w31a", "2023-08-01T10:03:13+00:00", "d89f218c29aaba49590d4ba76a2f425f54cb7f95", "2024-06-13T06:25:38+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/d89f218c29aaba49590d4ba76a2f425f54cb7f95/23w31a.json")
 
   /**
    * This represents the minecraft version 1.20.1
    */
-  val RELEASE_1_20_1: Version = Version(1, "1.20.1", "2023-06-12T13:25:51+00:00", "bae8fc85c125a571ed033694040ee96d9d8f1335", "2024-05-22T06:24:06+00:00", "release", "https://piston-meta.mojang.com/v1/packages/bae8fc85c125a571ed033694040ee96d9d8f1335/1.20.1.json")
+  val RELEASE_1_20_1: Version = Version(1, "1.20.1", "2023-06-12T13:25:51+00:00", "b8055b5cf9c36f1f62fdf8338bff372368fea83e", "2024-06-13T06:25:10+00:00", "release", "https://piston-meta.mojang.com/v1/packages/b8055b5cf9c36f1f62fdf8338bff372368fea83e/1.20.1.json")
 
   /**
    * This represents the minecraft version 1.20.1-rc1
    */
-  val SNAPSHOT_1_20_1_RC1: Version = Version(1, "1.20.1-rc1", "2023-06-09T14:15:49+00:00", "0d63956af75cc3ffd250f82fb918c45e080df083", "2024-05-22T06:24:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/0d63956af75cc3ffd250f82fb918c45e080df083/1.20.1-rc1.json")
+  val SNAPSHOT_1_20_1_RC1: Version = Version(1, "1.20.1-rc1", "2023-06-09T14:15:49+00:00", "19748e62caf09cccbfc2393c0233c8dde8c07a40", "2024-06-13T06:25:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/19748e62caf09cccbfc2393c0233c8dde8c07a40/1.20.1-rc1.json")
 
   /**
    * This represents the minecraft version 1.20
    */
-  val RELEASE_1_20: Version = Version(1, "1.20", "2023-06-02T08:36:17+00:00", "aad51fce89d7ad4513cff224ed6a3d0913e0f593", "2024-05-22T06:24:06+00:00", "release", "https://piston-meta.mojang.com/v1/packages/aad51fce89d7ad4513cff224ed6a3d0913e0f593/1.20.json")
+  val RELEASE_1_20: Version = Version(1, "1.20", "2023-06-02T08:36:17+00:00", "5b47406a133ac5316f843a7cd7c8411b35774142", "2024-06-13T06:25:10+00:00", "release", "https://piston-meta.mojang.com/v1/packages/5b47406a133ac5316f843a7cd7c8411b35774142/1.20.json")
 
   /**
    * This represents the minecraft version 1.20-rc1
    */
-  val SNAPSHOT_1_20_RC1: Version = Version(1, "1.20-rc1", "2023-05-31T12:33:33+00:00", "9cf113236f6fbf2b3c3505ff126c8b6dace20988", "2024-05-22T06:24:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/9cf113236f6fbf2b3c3505ff126c8b6dace20988/1.20-rc1.json")
+  val SNAPSHOT_1_20_RC1: Version = Version(1, "1.20-rc1", "2023-05-31T12:33:33+00:00", "06230119c5056f6ea4cab16be1a77e35b1fb08b8", "2024-06-13T06:25:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/06230119c5056f6ea4cab16be1a77e35b1fb08b8/1.20-rc1.json")
 
   /**
    * This represents the minecraft version 1.20-pre7
    */
-  val SNAPSHOT_1_20_PRE7: Version = Version(1, "1.20-pre7", "2023-05-29T13:44:34+00:00", "d74d95669f47bb4dcd6f39167fbe1bab0b68818e", "2024-05-22T06:24:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/d74d95669f47bb4dcd6f39167fbe1bab0b68818e/1.20-pre7.json")
+  val SNAPSHOT_1_20_PRE7: Version = Version(1, "1.20-pre7", "2023-05-29T13:44:34+00:00", "92fe1c81a6833dbc91183aa0be9dfc8203bb0c76", "2024-06-13T06:25:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/92fe1c81a6833dbc91183aa0be9dfc8203bb0c76/1.20-pre7.json")
 
   /**
    * This represents the minecraft version 1.20-pre6
    */
-  val SNAPSHOT_1_20_PRE6: Version = Version(1, "1.20-pre6", "2023-05-25T12:22:00+00:00", "e5d992feea4ad5b0dfbb11c4c6aaf54b7e254ae5", "2024-05-22T06:24:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/e5d992feea4ad5b0dfbb11c4c6aaf54b7e254ae5/1.20-pre6.json")
+  val SNAPSHOT_1_20_PRE6: Version = Version(1, "1.20-pre6", "2023-05-25T12:22:00+00:00", "2d98ede4c29f0e7cce78c4b290325fd97ece4d59", "2024-06-13T06:25:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/2d98ede4c29f0e7cce78c4b290325fd97ece4d59/1.20-pre6.json")
 
   /**
    * This represents the minecraft version 1.20-pre5
    */
-  val SNAPSHOT_1_20_PRE5: Version = Version(1, "1.20-pre5", "2023-05-23T12:22:52+00:00", "daa773408543d0059bfbdaf05193b06c7f1ec79d", "2024-05-22T06:24:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/daa773408543d0059bfbdaf05193b06c7f1ec79d/1.20-pre5.json")
+  val SNAPSHOT_1_20_PRE5: Version = Version(1, "1.20-pre5", "2023-05-23T12:22:52+00:00", "aeb505fe82140d8310e68005af82bbb8159d5d05", "2024-06-13T06:25:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/aeb505fe82140d8310e68005af82bbb8159d5d05/1.20-pre5.json")
 
   /**
    * This represents the minecraft version 1.20-pre4
    */
-  val SNAPSHOT_1_20_PRE4: Version = Version(1, "1.20-pre4", "2023-05-19T13:13:45+00:00", "678fbf6a9dab7dee531c2c64332a73bd4322100b", "2024-05-22T06:24:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/678fbf6a9dab7dee531c2c64332a73bd4322100b/1.20-pre4.json")
+  val SNAPSHOT_1_20_PRE4: Version = Version(1, "1.20-pre4", "2023-05-19T13:13:45+00:00", "2348ea6508b94b1bc1494754a338b6f7444886a8", "2024-06-13T06:25:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/2348ea6508b94b1bc1494754a338b6f7444886a8/1.20-pre4.json")
 
   /**
    * This represents the minecraft version 1.20-pre3
    */
-  val SNAPSHOT_1_20_PRE3: Version = Version(1, "1.20-pre3", "2023-05-19T11:39:46+00:00", "fa6000f79b6ab6525546d2aa8d453884792fcc28", "2024-05-22T06:24:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/fa6000f79b6ab6525546d2aa8d453884792fcc28/1.20-pre3.json")
+  val SNAPSHOT_1_20_PRE3: Version = Version(1, "1.20-pre3", "2023-05-19T11:39:46+00:00", "30c69916920ae7a51aa4fbdae8d091a9b7d61929", "2024-06-13T06:25:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/30c69916920ae7a51aa4fbdae8d091a9b7d61929/1.20-pre3.json")
 
   /**
    * This represents the minecraft version 1.20-pre2
    */
-  val SNAPSHOT_1_20_PRE2: Version = Version(1, "1.20-pre2", "2023-05-16T11:34:54+00:00", "cbd39a7f0ebc6ce620832cb169056a235d8d6fef", "2024-05-22T06:24:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/cbd39a7f0ebc6ce620832cb169056a235d8d6fef/1.20-pre2.json")
+  val SNAPSHOT_1_20_PRE2: Version = Version(1, "1.20-pre2", "2023-05-16T11:34:54+00:00", "1cc460831d97390ed48ea2672b6cc5ab9cdf9dbe", "2024-06-13T06:25:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/1cc460831d97390ed48ea2672b6cc5ab9cdf9dbe/1.20-pre2.json")
 
   /**
    * This represents the minecraft version 1.20-pre1
    */
-  val SNAPSHOT_1_20_PRE1: Version = Version(1, "1.20-pre1", "2023-05-10T12:19:34+00:00", "f9e1c46a943b2ff0db2bcb9b56e34ab6eb74d22b", "2024-05-22T06:24:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/f9e1c46a943b2ff0db2bcb9b56e34ab6eb74d22b/1.20-pre1.json")
+  val SNAPSHOT_1_20_PRE1: Version = Version(1, "1.20-pre1", "2023-05-10T12:19:34+00:00", "03eff6c6edf04d19631a3f3933a45a4a6fcf2791", "2024-06-13T06:25:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/03eff6c6edf04d19631a3f3933a45a4a6fcf2791/1.20-pre1.json")
 
   /**
    * This represents the minecraft version 23w18a
    */
-  val SNAPSHOT_23W18A: Version = Version(1, "23w18a", "2023-05-03T11:29:26+00:00", "290038589cc31df523137548d76416b20a1b614d", "2024-05-22T06:24:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/290038589cc31df523137548d76416b20a1b614d/23w18a.json")
+  val SNAPSHOT_23W18A: Version = Version(1, "23w18a", "2023-05-03T11:29:26+00:00", "f227818ae0fadc26df427b057adb8aecf9bc5f02", "2024-06-13T06:25:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/f227818ae0fadc26df427b057adb8aecf9bc5f02/23w18a.json")
 
   /**
    * This represents the minecraft version 23w17a
    */
-  val SNAPSHOT_23W17A: Version = Version(1, "23w17a", "2023-04-26T12:09:48+00:00", "1c707884cb94dd541fd85179996d55a6bca6f4dd", "2024-05-22T06:24:06+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/1c707884cb94dd541fd85179996d55a6bca6f4dd/23w17a.json")
+  val SNAPSHOT_23W17A: Version = Version(1, "23w17a", "2023-04-26T12:09:48+00:00", "8828039c7daf2d8460f68bf10a6576cc0c79e92d", "2024-06-13T06:25:10+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/8828039c7daf2d8460f68bf10a6576cc0c79e92d/23w17a.json")
 
   /**
    * This represents the minecraft version 23w16a
    */
-  val SNAPSHOT_23W16A: Version = Version(1, "23w16a", "2023-04-20T11:55:19+00:00", "b4d7e7915faebc181314cee988db1e77ad15ad82", "2024-05-22T06:23:37+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/b4d7e7915faebc181314cee988db1e77ad15ad82/23w16a.json")
+  val SNAPSHOT_23W16A: Version = Version(1, "23w16a", "2023-04-20T11:55:19+00:00", "1eca2d9fb19f1fcdabd1e9ba201fae02da11b65d", "2024-06-13T06:24:43+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/1eca2d9fb19f1fcdabd1e9ba201fae02da11b65d/23w16a.json")
 
   /**
    * This represents the minecraft version 23w14a
    */
-  val SNAPSHOT_23W14A: Version = Version(1, "23w14a", "2023-04-05T12:05:17+00:00", "559b191f2be0e49ee449b4fb2277019270aa40b2", "2024-05-22T06:23:37+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/559b191f2be0e49ee449b4fb2277019270aa40b2/23w14a.json")
+  val SNAPSHOT_23W14A: Version = Version(1, "23w14a", "2023-04-05T12:05:17+00:00", "7f54abe841df5386d6c1e89ffab0411e53c3e73c", "2024-06-13T06:24:43+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/7f54abe841df5386d6c1e89ffab0411e53c3e73c/23w14a.json")
 
   /**
    * This represents the minecraft version 23w13a_or_b
    */
-  val SNAPSHOT_23W13A_OR_B: Version = Version(1, "23w13a_or_b", "2023-04-01T12:52:18+00:00", "048c12e78ca738aad7d2f3b99f8322d7522deee7", "2024-05-22T06:23:07+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/048c12e78ca738aad7d2f3b99f8322d7522deee7/23w13a_or_b.json")
+  val SNAPSHOT_23W13A_OR_B: Version = Version(1, "23w13a_or_b", "2023-04-01T12:52:18+00:00", "59c0636f89c014c0cb5cc08be55123ffff88a2dd", "2024-06-13T06:24:15+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/59c0636f89c014c0cb5cc08be55123ffff88a2dd/23w13a_or_b.json")
 
   /**
    * This represents the minecraft version 23w13a
    */
-  val SNAPSHOT_23W13A: Version = Version(1, "23w13a", "2023-03-29T13:54:16+00:00", "cb0635b8064cc97ca700c4a63aefb4e8c8ed3a4d", "2024-05-22T06:23:07+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/cb0635b8064cc97ca700c4a63aefb4e8c8ed3a4d/23w13a.json")
+  val SNAPSHOT_23W13A: Version = Version(1, "23w13a", "2023-03-29T13:54:16+00:00", "c8f0aa81c34ce7d517637007cfc957a03fee88c2", "2024-06-13T06:24:15+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/c8f0aa81c34ce7d517637007cfc957a03fee88c2/23w13a.json")
 
   /**
    * This represents the minecraft version 23w12a
    */
-  val SNAPSHOT_23W12A: Version = Version(1, "23w12a", "2023-03-22T13:28:42+00:00", "f1d6e29cded4fe46b9ab3318acd49e493db9949d", "2024-05-22T06:23:07+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/f1d6e29cded4fe46b9ab3318acd49e493db9949d/23w12a.json")
+  val SNAPSHOT_23W12A: Version = Version(1, "23w12a", "2023-03-22T13:28:42+00:00", "4104033af6394c12b40903c1846f5bb8fe14c7e8", "2024-06-13T06:24:15+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/4104033af6394c12b40903c1846f5bb8fe14c7e8/23w12a.json")
 
   /**
    * This represents the minecraft version 1.19.4
    */
-  val RELEASE_1_19_4: Version = Version(1, "1.19.4", "2023-03-14T12:56:18+00:00", "08ab5e375a016dea85ca4f59260683c4e6270fa3", "2024-05-22T06:23:07+00:00", "release", "https://piston-meta.mojang.com/v1/packages/08ab5e375a016dea85ca4f59260683c4e6270fa3/1.19.4.json")
+  val RELEASE_1_19_4: Version = Version(1, "1.19.4", "2023-03-14T12:56:18+00:00", "7fd520b9bbf918af1051c876df51567d29d5c00a", "2024-06-13T06:24:15+00:00", "release", "https://piston-meta.mojang.com/v1/packages/7fd520b9bbf918af1051c876df51567d29d5c00a/1.19.4.json")
 
   /**
    * This represents the minecraft version 1.19.4-rc3
    */
-  val SNAPSHOT_1_19_4_RC3: Version = Version(1, "1.19.4-rc3", "2023-03-13T10:03:11+00:00", "9f74f3488c41911180e5f2c5bb6dc3c19a3ddd47", "2024-05-22T06:23:07+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/9f74f3488c41911180e5f2c5bb6dc3c19a3ddd47/1.19.4-rc3.json")
+  val SNAPSHOT_1_19_4_RC3: Version = Version(1, "1.19.4-rc3", "2023-03-13T10:03:11+00:00", "53cd635b1e5a8f0a63a26ac8178b514d263b1a2d", "2024-06-13T06:24:15+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/53cd635b1e5a8f0a63a26ac8178b514d263b1a2d/1.19.4-rc3.json")
 
   /**
    * This represents the minecraft version 1.19.4-rc2
    */
-  val SNAPSHOT_1_19_4_RC2: Version = Version(1, "1.19.4-rc2", "2023-03-10T12:42:54+00:00", "33572d03ff57222f4ee4b9f7b12c596e364afe34", "2024-05-22T06:23:07+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/33572d03ff57222f4ee4b9f7b12c596e364afe34/1.19.4-rc2.json")
+  val SNAPSHOT_1_19_4_RC2: Version = Version(1, "1.19.4-rc2", "2023-03-10T12:42:54+00:00", "554614858b2e4986ea7249ce0666a7fc14935d01", "2024-06-13T06:24:15+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/554614858b2e4986ea7249ce0666a7fc14935d01/1.19.4-rc2.json")
 
   /**
    * This represents the minecraft version 1.19.4-rc1
    */
-  val SNAPSHOT_1_19_4_RC1: Version = Version(1, "1.19.4-rc1", "2023-03-09T14:35:50+00:00", "ba504031065a2f4f4cdaa7886f1b48f59faacd81", "2024-05-22T06:23:07+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/ba504031065a2f4f4cdaa7886f1b48f59faacd81/1.19.4-rc1.json")
+  val SNAPSHOT_1_19_4_RC1: Version = Version(1, "1.19.4-rc1", "2023-03-09T14:35:50+00:00", "8ad5abf5c446e597b4b11bd557eb7431dccd26b5", "2024-06-13T06:24:15+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/8ad5abf5c446e597b4b11bd557eb7431dccd26b5/1.19.4-rc1.json")
 
   /**
    * This represents the minecraft version 1.19.4-pre4
    */
-  val SNAPSHOT_1_19_4_PRE4: Version = Version(1, "1.19.4-pre4", "2023-03-08T13:08:22+00:00", "810b55059e5bbad99f28d78b488e0d94eb5a0c28", "2024-05-22T06:23:07+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/810b55059e5bbad99f28d78b488e0d94eb5a0c28/1.19.4-pre4.json")
+  val SNAPSHOT_1_19_4_PRE4: Version = Version(1, "1.19.4-pre4", "2023-03-08T13:08:22+00:00", "47f4b9c698d09b9ac1c396f4792cac520857c4f5", "2024-06-13T06:24:15+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/47f4b9c698d09b9ac1c396f4792cac520857c4f5/1.19.4-pre4.json")
 
   /**
    * This represents the minecraft version 1.19.4-pre3
    */
-  val SNAPSHOT_1_19_4_PRE3: Version = Version(1, "1.19.4-pre3", "2023-03-01T14:11:05+00:00", "e55818b5b61e211c9908a7e5ebb61571e9ed13d8", "2024-05-22T06:23:07+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/e55818b5b61e211c9908a7e5ebb61571e9ed13d8/1.19.4-pre3.json")
+  val SNAPSHOT_1_19_4_PRE3: Version = Version(1, "1.19.4-pre3", "2023-03-01T14:11:05+00:00", "9f446ed88e0d39182e20408a17a2c0be789ab9d9", "2024-06-13T06:24:15+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/9f446ed88e0d39182e20408a17a2c0be789ab9d9/1.19.4-pre3.json")
 
   /**
    * This represents the minecraft version 1.19.4-pre2
    */
-  val SNAPSHOT_1_19_4_PRE2: Version = Version(1, "1.19.4-pre2", "2023-02-27T13:38:53+00:00", "2e82a6f5453fb36dbd547045cd738d8af326772a", "2024-05-22T06:23:07+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/2e82a6f5453fb36dbd547045cd738d8af326772a/1.19.4-pre2.json")
+  val SNAPSHOT_1_19_4_PRE2: Version = Version(1, "1.19.4-pre2", "2023-02-27T13:38:53+00:00", "448a079a66d8bf0bd8180b5c57421f694098a0a9", "2024-06-13T06:24:15+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/448a079a66d8bf0bd8180b5c57421f694098a0a9/1.19.4-pre2.json")
 
   /**
    * This represents the minecraft version 1.19.4-pre1
    */
-  val SNAPSHOT_1_19_4_PRE1: Version = Version(1, "1.19.4-pre1", "2023-02-22T16:00:34+00:00", "df49074ed80a5be3888f24d6483faa4f03098f2d", "2024-05-22T06:23:07+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/df49074ed80a5be3888f24d6483faa4f03098f2d/1.19.4-pre1.json")
+  val SNAPSHOT_1_19_4_PRE1: Version = Version(1, "1.19.4-pre1", "2023-02-22T16:00:34+00:00", "30f7428b88607dd72df0d18e7fb8c03230e3dc9e", "2024-06-13T06:24:15+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/30f7428b88607dd72df0d18e7fb8c03230e3dc9e/1.19.4-pre1.json")
 
   /**
    * This represents the minecraft version 23w07a
    */
-  val SNAPSHOT_23W07A: Version = Version(1, "23w07a", "2023-02-15T14:32:29+00:00", "508242eba550cdf25fe28c92e89fab3bc11301c9", "2024-05-22T06:22:38+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/508242eba550cdf25fe28c92e89fab3bc11301c9/23w07a.json")
+  val SNAPSHOT_23W07A: Version = Version(1, "23w07a", "2023-02-15T14:32:29+00:00", "14535671c0789d949152122641250426a93028a1", "2024-06-13T06:23:46+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/14535671c0789d949152122641250426a93028a1/23w07a.json")
 
   /**
    * This represents the minecraft version 23w06a
    */
-  val SNAPSHOT_23W06A: Version = Version(1, "23w06a", "2023-02-08T15:00:04+00:00", "4bbf5dea894b57c8d03feabdabfc2e6a4bd93ffd", "2024-05-22T06:22:38+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/4bbf5dea894b57c8d03feabdabfc2e6a4bd93ffd/23w06a.json")
+  val SNAPSHOT_23W06A: Version = Version(1, "23w06a", "2023-02-08T15:00:04+00:00", "9aa50a9c710bb87196e0bf388b80f2e81decf667", "2024-06-13T06:23:46+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/9aa50a9c710bb87196e0bf388b80f2e81decf667/23w06a.json")
 
   /**
    * This represents the minecraft version 23w05a
    */
-  val SNAPSHOT_23W05A: Version = Version(1, "23w05a", "2023-02-01T14:20:33+00:00", "94425f05655de0a75a726b8dbd2ec7f3def5ab67", "2024-05-22T06:22:38+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/94425f05655de0a75a726b8dbd2ec7f3def5ab67/23w05a.json")
+  val SNAPSHOT_23W05A: Version = Version(1, "23w05a", "2023-02-01T14:20:33+00:00", "04dec1c22940f82f8349e8492db741b9257f981d", "2024-06-13T06:23:46+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/04dec1c22940f82f8349e8492db741b9257f981d/23w05a.json")
 
   /**
    * This represents the minecraft version 23w04a
    */
-  val SNAPSHOT_23W04A: Version = Version(1, "23w04a", "2023-01-24T15:19:06+00:00", "d815f72a76eafe6b37935c743e98a098d74cf7b9", "2024-05-22T06:22:38+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/d815f72a76eafe6b37935c743e98a098d74cf7b9/23w04a.json")
+  val SNAPSHOT_23W04A: Version = Version(1, "23w04a", "2023-01-24T15:19:06+00:00", "841f75f4941107d2b59e9e0a2e6ee5d6251a7412", "2024-06-13T06:23:46+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/841f75f4941107d2b59e9e0a2e6ee5d6251a7412/23w04a.json")
 
   /**
    * This represents the minecraft version 23w03a
    */
-  val SNAPSHOT_23W03A: Version = Version(1, "23w03a", "2023-01-18T13:10:31+00:00", "1db4bcbdb502701cd0385cec5ab7d19638443c49", "2024-05-22T06:22:38+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/1db4bcbdb502701cd0385cec5ab7d19638443c49/23w03a.json")
+  val SNAPSHOT_23W03A: Version = Version(1, "23w03a", "2023-01-18T13:10:31+00:00", "1c2c80e6a2652a5bae739df05186663d1170cf81", "2024-06-13T06:23:46+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/1c2c80e6a2652a5bae739df05186663d1170cf81/23w03a.json")
 
   /**
    * This represents the minecraft version 1.19.3
    */
-  val RELEASE_1_19_3: Version = Version(1, "1.19.3", "2022-12-07T08:17:18+00:00", "394d0cedf799c59cde655f2321a1eb4008cd73b9", "2024-05-22T06:22:38+00:00", "release", "https://piston-meta.mojang.com/v1/packages/394d0cedf799c59cde655f2321a1eb4008cd73b9/1.19.3.json")
+  val RELEASE_1_19_3: Version = Version(1, "1.19.3", "2022-12-07T08:17:18+00:00", "ab0eaecb9986429c84242ab3394dd7da9f1c76b1", "2024-06-13T06:23:46+00:00", "release", "https://piston-meta.mojang.com/v1/packages/ab0eaecb9986429c84242ab3394dd7da9f1c76b1/1.19.3.json")
 
   /**
    * This represents the minecraft version 1.19.3-rc3
    */
-  val SNAPSHOT_1_19_3_RC3: Version = Version(1, "1.19.3-rc3", "2022-12-06T10:24:01+00:00", "7eceddc54f79aedab13bd0a11f9e359380d83f88", "2024-05-22T06:22:38+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/7eceddc54f79aedab13bd0a11f9e359380d83f88/1.19.3-rc3.json")
+  val SNAPSHOT_1_19_3_RC3: Version = Version(1, "1.19.3-rc3", "2022-12-06T10:24:01+00:00", "0bba22e0a673c6985551ca334b178b1a8816f97f", "2024-06-13T06:23:46+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/0bba22e0a673c6985551ca334b178b1a8816f97f/1.19.3-rc3.json")
 
   /**
    * This represents the minecraft version 1.19.3-rc2
    */
-  val SNAPSHOT_1_19_3_RC2: Version = Version(1, "1.19.3-rc2", "2022-12-05T13:21:34+00:00", "95f9ca6012f2c4f7959b93b69c6e6ddbadb01460", "2024-05-22T06:22:38+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/95f9ca6012f2c4f7959b93b69c6e6ddbadb01460/1.19.3-rc2.json")
+  val SNAPSHOT_1_19_3_RC2: Version = Version(1, "1.19.3-rc2", "2022-12-05T13:21:34+00:00", "78f19a44de84f6ea114c3954ec2e1b90683ac187", "2024-06-13T06:23:46+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/78f19a44de84f6ea114c3954ec2e1b90683ac187/1.19.3-rc2.json")
 
   /**
    * This represents the minecraft version 1.19.3-rc1
    */
-  val SNAPSHOT_1_19_3_RC1: Version = Version(1, "1.19.3-rc1", "2022-12-01T13:45:18+00:00", "fe2392b3dfced180c3a91cd0c56fcbfae1b51855", "2024-05-22T06:22:38+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/fe2392b3dfced180c3a91cd0c56fcbfae1b51855/1.19.3-rc1.json")
+  val SNAPSHOT_1_19_3_RC1: Version = Version(1, "1.19.3-rc1", "2022-12-01T13:45:18+00:00", "4fa29b26e640935af000456eb80636a47367a57b", "2024-06-13T06:23:46+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/4fa29b26e640935af000456eb80636a47367a57b/1.19.3-rc1.json")
 
   /**
    * This represents the minecraft version 1.19.3-pre3
    */
-  val SNAPSHOT_1_19_3_PRE3: Version = Version(1, "1.19.3-pre3", "2022-11-29T14:28:08+00:00", "0578432056ba24fac4b515db08470bfa8047c422", "2024-05-22T06:22:38+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/0578432056ba24fac4b515db08470bfa8047c422/1.19.3-pre3.json")
+  val SNAPSHOT_1_19_3_PRE3: Version = Version(1, "1.19.3-pre3", "2022-11-29T14:28:08+00:00", "8d2a79e61add0a6c7527ccb7e33893f56be1b9a1", "2024-06-13T06:23:46+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/8d2a79e61add0a6c7527ccb7e33893f56be1b9a1/1.19.3-pre3.json")
 
   /**
    * This represents the minecraft version 1.19.3-pre2
    */
-  val SNAPSHOT_1_19_3_PRE2: Version = Version(1, "1.19.3-pre2", "2022-11-23T16:12:25+00:00", "577587f5cd20c62941f8a23b9184ac00c8b4ce63", "2024-05-22T06:22:38+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/577587f5cd20c62941f8a23b9184ac00c8b4ce63/1.19.3-pre2.json")
+  val SNAPSHOT_1_19_3_PRE2: Version = Version(1, "1.19.3-pre2", "2022-11-23T16:12:25+00:00", "64a2cebaa2dd8bd9e9b71c32946c8c9469a0da54", "2024-06-13T06:23:46+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/64a2cebaa2dd8bd9e9b71c32946c8c9469a0da54/1.19.3-pre2.json")
 
   /**
    * This represents the minecraft version 1.19.3-pre1
    */
-  val SNAPSHOT_1_19_3_PRE1: Version = Version(1, "1.19.3-pre1", "2022-11-22T13:59:37+00:00", "a8cd9bc467033d0a7bc9e016a1af9d30e11aa393", "2024-05-22T06:22:38+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/a8cd9bc467033d0a7bc9e016a1af9d30e11aa393/1.19.3-pre1.json")
+  val SNAPSHOT_1_19_3_PRE1: Version = Version(1, "1.19.3-pre1", "2022-11-22T13:59:37+00:00", "7acc10c199f0e73bdb9f0404261931c3f50f0d84", "2024-06-13T06:23:46+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/7acc10c199f0e73bdb9f0404261931c3f50f0d84/1.19.3-pre1.json")
 
   /**
    * This represents the minecraft version 22w46a
    */
-  val SNAPSHOT_22W46A: Version = Version(1, "22w46a", "2022-11-16T13:32:50+00:00", "634c29fcf94e9b814a8208154a3b0e492b911d41", "2024-05-22T06:22:38+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/634c29fcf94e9b814a8208154a3b0e492b911d41/22w46a.json")
+  val SNAPSHOT_22W46A: Version = Version(1, "22w46a", "2022-11-16T13:32:50+00:00", "2a1a38178ced0ad3774fa29c9b40b049ae462116", "2024-06-13T06:23:46+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/2a1a38178ced0ad3774fa29c9b40b049ae462116/22w46a.json")
 
   /**
    * This represents the minecraft version 22w45a
    */
-  val SNAPSHOT_22W45A: Version = Version(1, "22w45a", "2022-11-09T14:30:16+00:00", "6331d2643d3a4b3cedbc7dcc450d56ff9eb036de", "2024-05-22T06:22:38+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/6331d2643d3a4b3cedbc7dcc450d56ff9eb036de/22w45a.json")
+  val SNAPSHOT_22W45A: Version = Version(1, "22w45a", "2022-11-09T14:30:16+00:00", "881eb7a3e50604c654e664fb664e339bf1835f0a", "2024-06-13T06:23:46+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/881eb7a3e50604c654e664fb664e339bf1835f0a/22w45a.json")
 
   /**
    * This represents the minecraft version 22w44a
    */
-  val SNAPSHOT_22W44A: Version = Version(1, "22w44a", "2022-11-02T13:15:43+00:00", "ed9485390e2a258c621a63e3c46725b47696a9cb", "2024-05-22T06:18:29+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/ed9485390e2a258c621a63e3c46725b47696a9cb/22w44a.json")
+  val SNAPSHOT_22W44A: Version = Version(1, "22w44a", "2022-11-02T13:15:43+00:00", "3f8cb665fa481d916866d82149b95b1ca8d74440", "2024-06-13T06:19:49+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/3f8cb665fa481d916866d82149b95b1ca8d74440/22w44a.json")
 
   /**
    * This represents the minecraft version 22w43a
    */
-  val SNAPSHOT_22W43A: Version = Version(1, "22w43a", "2022-10-26T11:55:59+00:00", "00f8ff8619be9242375e61eb0e2b815cfea1ef8a", "2024-05-22T06:18:29+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/00f8ff8619be9242375e61eb0e2b815cfea1ef8a/22w43a.json")
+  val SNAPSHOT_22W43A: Version = Version(1, "22w43a", "2022-10-26T11:55:59+00:00", "50a41169d0dcac8503e62319e29fb4201fa120f9", "2024-06-13T06:19:49+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/50a41169d0dcac8503e62319e29fb4201fa120f9/22w43a.json")
 
   /**
    * This represents the minecraft version 22w42a
    */
-  val SNAPSHOT_22W42A: Version = Version(1, "22w42a", "2022-10-19T09:34:22+00:00", "42587d1f357bc5a596ad5ee5dfeed558624f52a6", "2024-05-22T06:18:29+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/42587d1f357bc5a596ad5ee5dfeed558624f52a6/22w42a.json")
+  val SNAPSHOT_22W42A: Version = Version(1, "22w42a", "2022-10-19T09:34:22+00:00", "1b790de28e8a2937c148432be2d473b114f7674e", "2024-06-13T06:19:49+00:00", "snapshot", "https://piston-meta.mojang.com/v1/packages/1b790de28e8a2937c148432be2d473b114f7674e/22w42a.json")
 
   /**
    * This represents the minecraft version 1.19.2

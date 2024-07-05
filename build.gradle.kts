@@ -1,6 +1,6 @@
 plugins {
-    kotlin("jvm") version "1.9.24"
-    kotlin("plugin.serialization") version "1.9.24"
+    kotlin("jvm") version "2.0.0"
+    kotlin("plugin.serialization") version "2.0.0"
     id("application")
     id("java-library")
     id("maven-publish")
@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "me.obsilabor"
-version = "1.0.7"
+version = "1.0.8"
 
 application {
     mainClass.set("$group.pistonmetakt.classgen.ClassGeneratorKt")
@@ -21,14 +21,14 @@ repositories {
 dependencies {
     implementation("com.squareup:kotlinpoet:1.12.0")
 
-    implementation("io.ktor:ktor-client-core:2.1.3")
-    implementation("io.ktor:ktor-client-cio:2.1.3")
-    implementation("io.ktor:ktor-client-content-negotiation:2.1.3")
-    implementation("io.ktor:ktor-serialization-kotlinx-json:2.1.3")
+    implementation("io.ktor:ktor-client-core:2.3.12")
+    implementation("io.ktor:ktor-client-cio:2.3.12")
+    implementation("io.ktor:ktor-client-content-negotiation:2.3.12")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.12")
 
     implementation("org.slf4j:slf4j-simple:2.0.3")
-    implementation("io.ktor:ktor-server-core:2.1.3")
-    implementation("io.ktor:ktor-server-netty:2.1.3")
+    implementation("io.ktor:ktor-server-core:2.3.12")
+    implementation("io.ktor:ktor-server-netty:2.3.12")
 
     implementation("me.nullicorn:ms-to-mca:0.0.1")
 }
@@ -56,6 +56,7 @@ publishing {
                     password = (property("ossrhPassword") ?: return@credentials) as String
                 }
             }
+            /*
             maven("https://repo.obsilabor.me/snapshots") {
                 name = "obsilaborRepoSnapshots"
                 credentials(PasswordCredentials::class) {
@@ -66,6 +67,7 @@ publishing {
                     create<BasicAuthentication>("basic")
                 }
             }
+             */
         }
     }.onFailure {
         println("Unable to add publishing repositories: ${it.message}")
